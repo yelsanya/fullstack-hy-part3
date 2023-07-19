@@ -95,7 +95,7 @@ app.post('/api/persons', (request, response) => {
 		number: request.body.number
 	}
 	persons.push(newPerson)
-	response.redirect('/api/persons')
+	response.send(newPerson)
 })
 
 const PORT = 3001
