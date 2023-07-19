@@ -1,0 +1,29 @@
+{
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "fullstack part 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node_modules/.bin/nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yelsanya/fullstack-hy-part3.git"
+  },
+  "author": "yelsanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yelsanya/fullstack-hy-part3/issues"
+  },
+  "homepage": "https://github.com/yelsanya/fullstack-hy-part3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mongodb": "4.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
