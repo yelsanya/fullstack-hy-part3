@@ -29,7 +29,7 @@ let persons = [
 ]
 
 morgan.token('body', (req, res) => {
-	if (req.method == 'POST') {
+	if (req.method === 'POST') {
 		return JSON.stringify(req.body)
 	}
 	else {
