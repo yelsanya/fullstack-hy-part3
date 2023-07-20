@@ -71,7 +71,7 @@ app.delete('/api/persons/:id', (request, response) => {
 		}
 		return newPersons
 	}, [])
-	response.redirect('/api/persons')
+	response.status(200).end()
 })
 
 app.post('/api/persons', (request, response) => {
